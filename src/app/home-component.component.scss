@@ -1,0 +1,81 @@
+$primary-color:#555e65;
+$nav-padding: 15px 23px;
+
+/*extend classes*/
+.panelboxes{
+    cursor: pointer;
+	overflow: hidden;
+    border: 1px solid #CACACA;
+}
+
+.icon-styling{
+    width: 526px;
+	float: left;
+}
+
+.icon-inner-styling{
+    background: #edeef0;
+	padding: 10px;
+}
+
+
+
+body{color:$primary-color;}
+
+.nav {
+	>li {
+		>a {
+			padding: $nav-padding;
+		}
+	}
+}
+
+.preview-box {
+	@extend .panelboxes;
+	background: #fafafa;
+	padding: 46px;
+}
+.social-box {
+	@extend .panelboxes;
+	background: #fff;
+	padding: 28px 20px 0;
+}
+.full-color-icons {
+	@extend .icon-styling;
+}
+.social-module-icons {
+	@extend .icon-styling;
+	.input-group {
+		margin: 31px 0;
+	}
+}
+.full-color-container {
+	@extend .icon-inner-styling;
+}
+.social-module-container {
+	@extend .icon-inner-styling;
+}
+.flex-display {
+	display: inline-flex;
+	top: -28px;
+	right: 40px;
+	position: absolute;
+}
+.input-group-addon {
+	padding: 6px 19px;
+}
+.social-icons {
+	img {
+		margin: 15px 0;
+	}
+}
+.greycube {
+	width: 42px;
+	height: 36px;
+	background-color: grey;
+	display: none;
+	border-radius: 6px;
+	margin: 15px 0;
+}
+
+

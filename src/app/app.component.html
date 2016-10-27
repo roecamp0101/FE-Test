@@ -1,0 +1,17 @@
+
+<main class="container">
+<h2 class="main-header-color"><strong><span class="glyphicon glyphicon-cog widget-font-size"></span> Global Settings</strong></h2>
+<header class="header-nav-section">   
+<ul class="nav nav-tabs">
+    <li role="presentation" class="active"><a [routerLink]="['']" routerLinkActive="selected" [routerLinkActiveOptions]="{exact:true}"><span class="glyphicon glyphicon-globe"></span>&nbsp;&nbsp;Site Info</a></li>
+    <li role="presentation"><a [routerLink]="['business-contacts']" routerLinkActive="selected"><span class="glyphicon glyphicon-earphone"></span>&nbsp;&nbsp;Business Contacts</a></li>
+    <li role="presentation"><a [routerLink]="['dashboard-info']" routerLinkActive="selected"><span class="glyphicon glyphicon-dashboard"></span>&nbsp;&nbsp;Dashboard Info</a></li>
+</ul>
+</header> 
+    
+<router-outlet></router-outlet>
+
+
+</main>
+   
+

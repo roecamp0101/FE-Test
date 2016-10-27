@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+$bootstrap-sass-asset-helper:true;
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+body{color:#555e65;}
+.widget-font-size{font-size:24px; margin-bottom:24px;}
+.container{padding-top:70px; padding-bottom: 70px;}
+a{color:#2ed3d5;}
+.bootstrap-switch{float:right;}
+.header-nav-section{margin: 0 0 45px;}
+.general-section-info{margin: 0 0 30px;}
+
