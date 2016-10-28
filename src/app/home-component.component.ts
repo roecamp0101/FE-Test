@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {FeService} from './fe.service';
 import {Response} from '@angular/http';
 import {SearchPipePipe} from './search-pipe.pipe';
+import {NgForm} from '@angular/forms'
 
 
 @Component({
@@ -11,6 +12,17 @@ import {SearchPipePipe} from './search-pipe.pipe';
 
 })
 export class HomeComponentComponent implements OnInit {
+    
+  user = {
+        //email:'',
+        //sitetitle: '',
+        //company: ''
+       
+    }
+  
+    onSubmit(form:NgForm){
+        console.log(form.value)
+    }
 
     title = 'app works!';
     items: any[] = [];
